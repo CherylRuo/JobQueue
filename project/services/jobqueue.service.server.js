@@ -41,7 +41,7 @@ module.exports = function (app, model) {
                         res.status(200).send("Job incomplete! ");
                     }
                     else {
-                        res.status(200).send(job);
+                        res.status(200).send(job.content);
                     }
             },
                 function (err){
