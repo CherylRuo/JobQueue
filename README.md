@@ -1,0 +1,7 @@
+- npm install
+- redis-server
+- brew install mongodb
+- mongod
+- node server.js
+- curl -H "Content-Type: application/json" -X POST -d '{"url":"http://www.google.com"}' http://localhost:3000/api/createjob
+- curl http://localhost:3000/api/job/:jobId      // jobId is id of created job
